@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="style.css" rel="stylesheet">
+        <link href="media.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="overlay">
+                <div class="nav-container">
+                    
+                    <div class="logo-container">
+                        <img src="imgs/transparent-word-coffee-background-coffee-beans-mockup-advertising.png">
+                    </div>
+                    <div class="side-bar">
+                        <a href="#"  onclick=HideSidebar() ><img src="imgs/close_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"></a>
+                        <a href="#">HOME</a>
+                        <a href="#">COFFEE</a>
+                        <a href="#">BAKERY</a>
+                        <a href="#">SHOP</a>
+                        <a href="#">ABOUT</a>
+                        <a href="#">LOGIN</a>
+                    </div>
+                    <div class="nav-element-container">
+                        <a href="#" class="hide" >HOME</a>
+                        <a href="#" class="hide" >COFFEE</a>
+                        <a href="#" class="hide">BAKERY</a>
+                        <a href="#" class="hide">SHOP</a>
+                        <a href="#" class="hide">ABOUT</a>
+                        <a href="#" class="hide">LOGIN</a>
+                        <a href="#" onclick=showSidebar() class="no-hide"><img src="imgs/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"></a>
+                        
+                    </div>
+                    <div class="search-container">
+                        <i class="fa-solid fa-magnifying-glass icon"></i>
+                    </div>
+                </div>
+                <div class="header-words">
+                    <p>Welcome!</p>
+                    <h1>We serve the riches coffee<br> in the city!</h1>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            
+        </header>
+        <section class="icons-container">
+            <div class="smaller-container">
+            <div class="hot-coffee item">
+                <img src="imgs/coffe.svg">
+                <p>Hot Coffee</p>
+            </div>
+            <div class="cold-coffee item">
+                <img src="imgs/cupwithice.svg">
+                <p>Cold Coffee</p>
+            </div>
+            <div class="cup-coffee item">
+                <img src="imgs/cup.svg">
+                <p>Cup Coffee</p>
+            </div>
+            <div class="cake item">
+                <img src="imgs/cake.svg">
+                <p>Dessert</p>
+            </div>
+            </div>
+        </section>
+        <section class="special-coffee">
+            <div class="title">
+                <h1>OUR SPECIAL COFFEE</h1>
+            </div>
+            <div class="card-container">
+                <div class="arrow">
+                    <img src="imgs/left_arrow.svg">
+                </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="imgs/lungoCaffee.jpg">
+                    <div class="fav"><i class="fa-regular fa-heart heart"></i></div>
+                </div>
+                <div class="card-words">
+                    <h4>Lungo Coffee</h4>
+                    <p>An espresso coffee,tapped with a small</p>
+                </div>
+                <div class="card-price">
+                    <h5>Rs.199</h5>
+                    <button class="order-card">Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="imgs/balgonaCoffee.jpg">
+                    <div class="fav"><i class="fa-regular fa-heart heart"></i></div>
+                </div>
+                <div class="card-words">
+                    <h4>Dalgano Coffee</h4>
+                    <p>Whipped coffee made using instant coffee</p>
+                </div>
+                <div class="card-price">
+                    <h5>Rs.159</h5>
+                    <button class="order-card">Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="imgs/icedCoffee.webp">
+                    <div class="fav"><i class="fa-regular fa-heart heart"></i></div>
+                </div>
+                <div class="card-words">
+                    <h4>Iced Coffee</h4>
+                    <p>Iced coffee is a coffee bevarage served cold</p>
+                </div>
+                <div class="card-price">
+                    <h5>Rs.149</h5>
+                    <button class="order-card">Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="imgs/filtercoffee.webp">
+                    <div class="fav"><i class="fa-regular fa-heart heart"></i></div>
+                </div>
+                <div class="card-words">
+                    <h4>Filter Coffee</h4>
+                    <p>75% coffee and 25% chicary treshly roasted</p>
+                </div>
+                <div class="card-price">
+                    <h5>Rs.59</h5>
+                    <button class="order-card">Order Now</button>
+                </div>
+            </div>
+            <div class="arrow">
+                    <img src="imgs/right_arrow.svg">
+                </div>
+            </div>
+
+        </section>
+        <section class="special-coffee">
+            <div class="title">
+                <h1>OUR SPECIAL DESSERT</h1>
+            </div>
+            <div class="card-container">
+                <div class="arrow">
+                    <img src="imgs/left_arrow.svg">
+                </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="imgs/gulabJamun.jpg">
+                    <div class="fav"><i class="fa-regular fa-heart heart"></i></div>
+                </div>
+                <div class="card-words">
+                    <h4>Gulab Jamun</h4>
+                    <p>made with milk solids,sugar,rose water&card</p>
+                </div>
+                <div class="card-price">
+                    <h5>Rs.199</h5>
+                    <button class="order-card">Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="imgs/chocolateTiramisu.jpg">
+                    <div class="fav"><i class="fa-regular fa-heart heart"></i></div>
+                </div>
+                <div class="card-words">
+                    <h4>Chocolate Tiramisu</h4>
+                    <p>made with layers of mascarpone cream,choc</p>
+                </div>
+                <div class="card-price">
+                    <h5>Rs.250</h5>
+                    <button class="order-card">Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="imgs/Churros.jpg">
+                    <div class="fav"><i class="fa-regular fa-heart heart"></i></div>
+                </div>
+                <div class="card-words">
+                    <h4>Churros</h4>
+                    <p>Hot chocolate made with bittersweet <br>chocolate</p>
+                </div>
+                <div class="card-price">
+                    <h5>Rs.170</h5>
+                    <button class="order-card">Order Now</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="imgs/australianLamingtons.jpg">
+                    <div class="fav"><i class="fa-regular fa-heart heart"></i></div>
+                </div>
+                <div class="card-words">
+                    <h4>Australian Lamingtons</h4>
+                    <p>Made with a Delicious sponge cake</p>
+                </div>
+                <div class="card-price">
+                    <h5>Rs.280</h5>
+                    <button class="order-card">Order Now</button>
+                </div>
+            </div>
+            <div class="arrow">
+                    <img src="imgs/right_arrow.svg">
+                </div>
+            </div>
+
+        </section>
+        <section class="check">
+            <div class="check-img1">
+                <img src="imgs/handseithcoffee.png">
+            </div>
+            <div class="check-words">
+                <h1>Check out our best coffee betans</h1>
+                <button class="explore">Explore our products >></button>
+            </div>
+            <div class="check-img2">
+                <img src="imgs/coffee.png">
+            </div>
+        </section>
+        <section class="customers">
+            <div class="customer-words">
+                <p > come and join</p>
+                <h4>OUR HAPPY CUSTOMERS</h4>
+            </div>
+            <div class="customer-cards">
+                <div class="custom">
+                    <div class="top-part">
+                        <div class="photo">
+                            <img src="imgs/beautiful-girl-warm-cozy-winter-600nw-2238411671.webp">
+                            <div class="words-custom">
+                                <h4>Jane Adams</h4>
+                            <p>Freelancer</p>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-regular fa-star icon2"></i>
+                            
+                        </div>
+                    </div>
+                    <div class="opinion">
+                        <p>I dropped by to have a cappuccino and honestly,after 30 days here we did not have high expectations , but if this cappuccino was served, I would be just as satisfied! great place with perfectly normal prices that I recommend!</p>
+                    </div>
+                </div>
+                <div class="custom">
+                    <div class="top-part">
+                        <div class="photo">
+                            <img src="imgs/professional-profile-pictures-1080-x-1080-460wjhrkbwdcp1ig.jpg">
+                            <div class="words-custom">
+                                <h4>Sam Williams</h4>
+                            <p>Enterpreneur</p>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="opinion">
+                        <p>I've been ordering beans from you for ten years, the quality of the product is consistently high! i'm grateful for the care that id apparently put into the roasts and the excellent customer service. your beans gives way to the best cups of coffee.</p>
+                    </div>
+                </div>
+                <div class="custom">
+                    <div class="top-part">
+                        <div class="photo">
+                            <img src="imgs/asian-businesswoman-portrait-isolated-on-260nw-2079816676.webp">
+                            <div class="words-custom">
+                                <h4>Angela Ganzales</h4>
+                            <p>Manager</p>
+                            </div>
+                        </div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            <i class="fa-solid fa-star icon1"></i>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="opinion">
+                        <p>I've been ordering beans from you for ten years, the quality of the product is consistently high! i'm grateful for the care that id apparently put into the roasts and the excellent customer service. your beans gives way to the best cups of coffee.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offer">
+            <div class="offer-container">
+            <div class="img-beans">
+                <img src="imgs/boffeeBeantops.png">
+            </div>
+            <div class="words-offer">
+                <h1>Join in and get 15% Off!</h1>
+                <p>Subscribe to our newsletter and get 15% off discount code.</p>
+                <div class="input-email">
+                    <div class="input-feild">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="Email address">
+                    </div>
+                    <div class="input-btn">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="img-beans2">
+                <img src="imgs/boffeeBeans.png">
+            </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-container">
+            <div class="footer-div">
+                <img src="imgs/transparent-word-coffee-background-coffee-beans-mockup-advertising.png">
+            </div>
+            <div class="footer-div">
+                <h4>PRIVACY</h4>
+                <ul>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+            </div>
+            <div class="footer-div">
+                <h4>SERVICES</h4>
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Order ahead</a></li>
+                    <li><a href="#">Menu</a></li>
+                </ul>
+            </div>
+            <div class="footer-div">
+                <h4>ABOUT US</h4>
+                <ul>
+                    <li><a href="#">Find a location</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our story</a></li>
+                </ul>
+            </div>
+            <div class="footer-div">
+                <h4>INFORMATION</h4>
+                <ul>
+                    <li><a href="#">Plans & pricing</a></li>
+                    <li><a href="#">Sell your products</a></li>
+                    <li><a href="#">Jobs</a></li>
+                </ul>
+            </div>
+            <div class="footer-div">
+                <h4>SOCIAL MEDIA</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-twitter icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in icon"></i></a>
+                </div>
+            </div>
+            </div>
+        </footer>
+        <script>
+            function showSidebar(){
+                const sidebar=document.querySelector('.side-bar')
+                sidebar.style.display='flex';
+            }
+            function HideSidebar(){
+                const sidebar=document.querySelector('.side-bar')
+                sidebar.style.display='none';
+            }
+        </script>
+    </body>
+</html>
